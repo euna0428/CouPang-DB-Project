@@ -8,7 +8,7 @@
 |---|---|
 | 작업 기간 | 2026.03.09 ~ 2026.06.08 (최종 발표 2026.06.17) |
 | 작업 인원 | 1명 (개인 프로젝트) |
-| 내 역할 | 요구사항 분석, 개념·논리·물리 설계, SQL 작성 |
+| 내 역할 | 요구사항 분석, 개념·논리·물리 설계, SQL 작성 (ChatGPT 협업) |
 | 작업 툴 | MySQL, SQL, MySQL Workbench |
 
 ## 작품 소개
@@ -19,7 +19,7 @@
 
 - 알바생·물류센터·업무·근무 **4개 테이블**을 설계했고, 근무 테이블에 **외래키 3개**를 두어 테이블 간 관계와 데이터 무결성을 확보했습니다.
 - MySQL Workbench에서 PK·FK·NOT NULL 제약을 포함한 테이블을 생성하고 샘플 데이터를 입력했습니다.
-- **SQL 25문제**를 직접 작성·실행했습니다.
+- **SQL 25문제**를 ChatGPT와 함께 작성하고, MySQL Workbench에서 직접 실행해 결과를 확인했습니다.
 
 | 분류 | 사용한 문법 |
 |---|---|
@@ -46,4 +46,11 @@
 |---|---|
 | `DataBase-Project-CouPang.sql` | 테이블 생성, 샘플 데이터 입력, 25개 쿼리 |
 | `CouPang_DB_Project.pdf` | 최종 발표 자료 |
-| [`docs/DEV_README.md`](docs/DEV_README.md) | 기존 README(작업 메모) |
+| [`docs/DEV_README.md`](https://github.com/euna0428/CouPang-DB-Project/blob/main/docs/DEV_README.md) | 기존 README(작업 메모) |
+
+## 관련 문서
+
+- [최종 발표 자료](https://github.com/euna0428/CouPang-DB-Project/blob/main/CouPang_DB_Project.pdf)
+- [테이블 생성·샘플 데이터·25개 쿼리](https://github.com/euna0428/CouPang-DB-Project/blob/main/DataBase-Project-CouPang.sql)
+- [상세 개발 기록](https://github.com/euna0428/CouPang-DB-Project/blob/main/docs/DEV_README.md)
+- [기존 README](https://github.com/euna0428/CouPang-DB-Project/blob/main/README_PREVIOUS.md)
